@@ -7,9 +7,6 @@ function shift(text, key) {
 		out.push(alp_arr[(alp_arr.indexOf(text[i]) + key_index) % 26]);
 	}
 	return out.join("");
-
-	
-
 }
 
 text = "caesar";
